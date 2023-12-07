@@ -1,5 +1,5 @@
 var loader=document.getElementById("myloader");
-window.addEventListener("load", function(){
+window.addEventListener('load', function(){
   loader.style.display= "none";
 
 });
@@ -231,23 +231,7 @@ window.addEventListener("load", function(){
     }
   });
 
-  /**
-   * Testimonials slider
-   */
-  new Swiper('.testimonials-slider', {
-    speed: 600,
-    loop: true,
-    autoplay: {
-      delay: 5000,
-      disableOnInteraction: false
-    },
-    slidesPerView: 'auto',
-    pagination: {
-      el: '.swiper-pagination',
-      type: 'bullets',
-      clickable: true
-    }
-  });
+
 
   /**
    * Animation on scroll
